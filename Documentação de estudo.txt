@@ -13,6 +13,9 @@ https://www.youtube.com/watch?v=LZsjuSBW5YM&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bM
 Criando Ambiente virtual:
 https://www.alura.com.br/artigos/ambientes-virtuais-em-python?gclid=EAIaIQobChMIqP7fronD_QIVtxTUAR3XCAL3EAAYASAAEgLNbvD_BwE
 
+Video:
+https://www.youtube.com/watch?v=m1TYpvIYm74
+
 
 Estudos:
 
