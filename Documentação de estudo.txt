@@ -9,6 +9,9 @@ https://docs.djangoproject.com/en/4.1/
 Video Aulas:
 https://www.youtube.com/watch?v=LZsjuSBW5YM&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj
 
+Completo Videos:
+https://www.youtube.com/watch?v=LZsjuSBW5YM&list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj
+
 
 Criando Ambiente virtual:
 https://www.alura.com.br/artigos/ambientes-virtuais-em-python?gclid=EAIaIQobChMIqP7fronD_QIVtxTUAR3XCAL3EAAYASAAEgLNbvD_BwE
