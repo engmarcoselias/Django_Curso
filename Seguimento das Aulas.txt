@@ -1,3 +1,7 @@
 Escrevendo Primeiro codigo Django:
 
-https://docs.djangoproject.com/en/4.1/intro/tutorial02/#creating-models
+https://docs.djangoproject.com/en/4.1/intro/tutorial03/
+
+estudar API de modelos:
+
+https://docs.djangoproject.com/en/4.1/topics/db/queries/
