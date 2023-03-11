@@ -39,7 +39,7 @@ https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
 Estudos complemento:
 
 -Arquivo Json
-https://www.hostinger.com.br/tutoriais/o-que-e-json#:~:text=Usando%20Arrays-,O%20Que%20%C3%A9%20Json%20e%20Para%20Que%20Serve,)%2C%20que%20tem%20fun%C3%A7%C3%B5es%20similares.
+https://www.hostinger.com.br/tutoriais/o-que-e-json#:~:text=Usando%20Arrays-,O%20Que%20%C3%A9%20Json%20e%20Para%20Que%20Serve,%2C%20que%20tem%20fun%C3%A7%C3%B5es%20similares.
 
 Para teste de requisição:
 https://jsonplaceholder.typicode.com/

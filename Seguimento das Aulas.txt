@@ -1,7 +1,8 @@
-Escrevendo Primeiro codigo Django:
+------------Aula Django----------------
 
-https://docs.djangoproject.com/en/4.1/intro/tutorial03/#raising-a-404-error
+https://www.w3schools.com/django/index.php
 
-estudar API de modelos:
 
-https://docs.djangoproject.com/en/4.1/topics/db/queries/
+Acompanhamento da aula:
+
+https://www.w3schools.com/django/django_insert_data.php
