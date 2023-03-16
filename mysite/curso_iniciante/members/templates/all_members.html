@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Members</h1>
+{% extends "master.html" %}
 
-    <ul>
-        {% for x in  mymembers %}
-        <li>
-            <a href="details/{{x.id}}">{{ x.firstname }} {{ x.lastname }}</a></li>
-        {% endfor%}
-    </ul>
-</body>
-</html>
+{% block title %}
+  Meu Curso inicial - Lista de todos so Membros
+{% endblock %}
+
+{% block content %}
+<p><a href="/">HOME</a></p>
+<h1>Members</h1>
+
+<u>
+    {% for x in mymembers %}
+        <li><a href="details/{{x.id}}">{{x.firstname}}{{x.lastname}}</a></li>
+    {% endfor %}
+</u>
+{% endblock %}

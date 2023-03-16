@@ -5,4 +5,4 @@ https://www.w3schools.com/django/index.php
 
 Acompanhamento da aula:
 
-https://www.w3schools.com/django/django_master_template.php
+https://www.w3schools.com/django/django_admin_set_list_display.php
