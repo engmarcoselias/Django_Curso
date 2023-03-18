@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina para teste</title>
+  <style>
+    a{
+      text-decoration: none;
+    }
+  </style>
+</head>
 <body>
-
-{% for x in fruits %}
-  <h1>{{ x }}</h1>
+{% include "mymenu.html" with me='MARCOS' sponsor="WSCHOOLS" %}
+{% for x in mymembers reversed %}
+  <h1>{{x.id}}</h1>
+  <p>
+    {{x.firstname}}
+    {{x.lastname}}
+  </p>
 {% endfor %}
 
-<p>In views.py you can see what the fruits variable looks like.</p>
+<ul>
+  {% for x in emptytestobject %}
+    <li>{{ x.firstname }}</li>
+  {% empty %}
+    <li>No members</li>
+  {% endfor %}
+</ul>
 
+<ul><!--Desenhe um fundo azul para a primeira iteração do loop:-->
+  {% for x in fruits %}
+    <li
+      {% if forloop.first %}
+        style='background-color:lightblue;'
+      {% endif %}
+    >{{ x }}</li>
+  {% endfor %}
+</ul>
+
+<ul>
+  {% comment "Codigo foi comentado" %}
+  <li>Olá esse conteudo esta comentado não aparece no codigo</li>
+  {% endcomment %}
+</ul>
+
+<h1>Olá</h1>
+
+{% include 'footer.html' %}
+
+<h1>Welcome{# Comentarios menores tag Django #}</h1>
+</ul>
 </body>
 </html>

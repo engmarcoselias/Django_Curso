@@ -1,6 +1,7 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
 from .models import Members
+from django.db.models import Q
 
 def members(request):
     mymembers = Members.objects.all().values()
@@ -23,8 +24,19 @@ def main(request):
     return HttpResponse(template.render())
 
 def testing(request):
+    mymembers = Members.objects.all().values()
     template = loader.get_template('template.html')
     context = {
-        'fruits': ['Aple', 'Banana','Cherry'],
+        'mymembers': mymembers,
+        'emptytestoject': [],
+        'fruits': ['Apple', 'Banana', 'Cherry', 'Oranges', 'Kiwi'],
+    }
+    return HttpResponse(template.render(context, request))
+
+def testing_two(request):
+    mydata = Members.objects.all().filter(Q(firstname='Emil')).values() | Members.objects.all().filter(Q(firstname='Tobias')).values()
+    template = loader.get_template('template2.html')
+    context = {
+        'mymembers': mydata,
     }
     return HttpResponse(template.render(context, request))
