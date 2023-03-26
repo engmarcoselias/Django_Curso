@@ -34,7 +34,7 @@ def testing(request):
     return HttpResponse(template.render(context, request))
 
 def testing_two(request):
-    mydata = Members.objects.all().filter(Q(firstname='Emil')).values() | Members.objects.all().filter(Q(firstname='Tobias')).values()
+    mydata = Members.objects.all().order_by('firstname').values()
     template = loader.get_template('template2.html')
     context = {
         'mymembers': mydata,
