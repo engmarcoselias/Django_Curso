@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'members'
+    'members',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -81,7 +82,7 @@ DATABASES = {
         'USER': 'masteruser',
         'PASSWORD': 'marcos91012715',
         'HOST': 'django-iniciante.c6vyqqmmpz9j.us-east-2.rds.amazonaws.com',
-        'PORT': '5432',
+        'PORT': '5432'
     }
 }
 
